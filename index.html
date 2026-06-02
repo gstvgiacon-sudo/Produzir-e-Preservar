@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raízes do Futuro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<button id="darkModeBtn">🌙</button>
+
+<header>
+
+    <div class="logo">
+        🌱 Raízes do Futuro
+    </div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#agua">Água</a>
+        <a href="#solo">Solo</a>
+        <a href="#problemas">Problemas</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+</header>
+
+<section id="inicio" class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Água e Solo:
+            A Base de um Agro Sustentável
+        </h1>
+
+        <p>
+            Produzir alimentos e preservar a natureza podem caminhar juntos.
+        </p>
+
+        <a href="#agua" class="btn">
+            Explorar
+        </a>
+
+    </div>
+
+</section>
+
+<section id="agua" class="section">
+
+    <h2>💧 Importância da Água</h2>
+
+    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80">
+
+    <p>
+        A água é essencial para a agricultura, permitindo a irrigação das plantações,
+        o crescimento das culturas e a produção de alimentos para bilhões de pessoas.
+    </p>
+
+</section>
+
+<section class="cards-section">
+
+    <div class="card">
+        <h3>💦 Irrigação</h3>
+        <p>
+            Mantém a produção agrícola mesmo em períodos de seca.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🌾 Produção</h3>
+        <p>
+            Aumenta a produtividade e a qualidade dos alimentos.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>♻ Sustentabilidade</h3>
+        <p>
+            O uso consciente evita desperdícios e preserva recursos.
+        </p>
+    </div>
+
+</section>
+
+<section id="solo" class="section">
+
+    <h2>🌱 Conservação do Solo</h2>
+
+    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1200&q=80">
+
+    <p>
+        O solo fornece nutrientes para as plantas e precisa ser protegido contra
+        erosão, compactação e degradação.
+    </p>
+
+</section>
+
+<section id="problemas" class="cards-section">
+
+    <div class="card">
+        <h3>🌲 Desmatamento</h3>
+        <p>Afeta rios, clima e biodiversidade.</p>
+    </div>
+
+    <div class="card">
+        <h3>🏜 Erosão</h3>
+        <p>Remove nutrientes essenciais do solo.</p>
+    </div>
+
+    <div class="card">
+        <h3>🌊 Poluição</h3>
+        <p>Compromete a qualidade da água.</p>
+    </div>
+
+</section>
+
+<section id="solucoes" class="section">
+
+    <h2>💡 Soluções Sustentáveis</h2>
+
+    <div class="cards-section">
+
+        <div class="card">
+            <h3>🚜 Plantio Direto</h3>
+            <p>Protege o solo e reduz erosões.</p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Irrigação Inteligente</h3>
+            <p>Economiza água e melhora a produtividade.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌳 Reflorestamento</h3>
+            <p>Recupera áreas degradadas.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <h2>📊 Dados Importantes</h2>
+
+    <div class="stats-container">
+
+        <div class="stat">
+            <h3 class="counter" data-target="70">0</h3>
+            <p>% da água doce utilizada na agricultura</p>
+        </div>
+
+        <div class="stat">
+            <h3 class="counter" data-target="95">0</h3>
+            <p>% dos alimentos dependem do solo</p>
+        </div>
+
+        <div class="stat">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>% da população depende da agricultura</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="quiz" class="quiz">
+
+    <h2>🧠 Quiz Sustentável</h2>
+
+    <p>
+        Qual prática ajuda a preservar o solo?
+    </p>
+
+    <button onclick="respostaQuiz(false)">
+        Queimadas
+    </button>
+
+    <button onclick="respostaQuiz(true)">
+        Plantio Direto
+    </button>
+
+    <button onclick="respostaQuiz(false)">
+        Desmatamento
+    </button>
+
+    <h3 id="resultadoQuiz"></h3>
+
+</section>
+
+<section class="gallery">
+
+    <h2>🖼 Galeria</h2>
+
+    <div class="gallery-container">
+
+        <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1200&q=80">
+
+        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1200&q=80">
+
+        <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80">
+
+    </div>
+
+</section>
+
+<button id="topBtn">
+⬆
+</button>
+
+<footer>
+
+    <h3>Raízes do Futuro</h3>
+
+    <p>
+        Agro Forte, Futuro Sustentável
+    </p>
+
+    <p>
+        Água e Solo: equilíbrio entre produção e meio ambiente.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
